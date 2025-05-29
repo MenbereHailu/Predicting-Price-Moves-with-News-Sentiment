@@ -37,20 +37,7 @@ This task focuses on:
 
 ## 📁 Folder Structure
 
-├── .github/
-│ └── workflows/
-│ └── unittests.yml # GitHub Action for CI (unit test runner)
-├── data/
-│ └── news_data.csv # Raw news dataset
-├── notebooks/
-│ └── 01_eda_news.ipynb # Jupyter Notebook for EDA
-├── scripts/
-│ └── data_loader.py # Helper script to load/clean data
-├── tests/
-│ └── test_loader.py # Unit tests for data loading
-├── requirements.txt # Python dependencies
-├── .gitignore # Files/folders to ignore in Git
-├── README.md # Project overview (this file)
+<pre> ``` ├── .github/ │ └── workflows/ │ └── unittests.yml # GitHub Action for CI (unit test runner) ├── data/ │ └── news_data.csv # Raw news dataset ├── notebooks/ │ └── 01_eda_news.ipynb # Jupyter Notebook for EDA ├── scripts/ │ └── data_loader.py # Helper script to load/clean data ├── tests/ │ └── test_loader.py # Unit tests for data loading ├── requirements.txt # Python dependencies ├── .gitignore # Files/folders to ignore in Git ├── README.md # Project overview (this file) ``` </pre>
 
 
 ---
@@ -78,6 +65,6 @@ Key plots and summaries will be stored in outputs/ (optional).
 
 
 ## 🖊️ Author
-Maintained by Menbere Hailu
-📧 menberehailu.w@gmail.com
-🌐 GitHub: MenbereHailu
+- Maintained by Menbere Hailu
+- 📧 menberehailu.w@gmail.com
+- 🌐 GitHub: MenbereHailu
