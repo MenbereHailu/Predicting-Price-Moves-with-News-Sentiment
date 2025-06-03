@@ -62,8 +62,8 @@ Example packages:
 📊 Outputs
 Key plots and summaries will be stored in outputs/ (optional).
 
-## Task-2 
-# 📊 Stock Price Analysis and Technical Indicator Dashboard
+
+# 📊 Task-2 : Stock Price Analysis and Technical Indicator Dashboard
 
 ## 🧾 Project Overview
 This project involves loading and analyzing stock price data using Python, TA-Lib, and PyNance to calculate key financial indicators and visualize insights. The goal is to prepare clean data, apply technical analysis, and create an interactive dashboard-ready dataset for stock market insights.
