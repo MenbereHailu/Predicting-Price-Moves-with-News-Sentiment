@@ -114,21 +114,63 @@ Visualizations include:
 
 ---
 
-## 🚀 Next Steps
-- Integrate visualizations into an interactive dashboard
-- Expand analysis with additional financial metrics
-- Explore predictive modeling using indicator data
+#  📰📈 Task 3: News Sentiment vs Stock Price Movement Analysis
+
+## 🧾 Project Overview
+This project explores the relationship between news sentiment and stock price movements. By aligning financial market data with sentiment analysis of news headlines, we aim to identify potential correlations and assess the predictive value of media tone on stock performance.
 
 ---
 
+## ✅ Features
 
-
-
+- **Date Alignment**: Normalized and aligned news and stock datasets by trading dates to ensure analytical consistency.
+- **Sentiment Analysis**: Used NLP tools (TextBlob, NLTK) to assign sentiment scores (positive, neutral, negative) to news headlines.
+- **Stock Return Calculation**: Computed daily stock return percentages based on closing prices.
+- **Correlation Analysis**: Performed statistical correlation analysis between daily average sentiment scores and daily stock returns using Pearson's correlation coefficient.
 
 ---
 
+## 🔧 Tools & Libraries
 
+- Python (Pandas, NumPy)
+- NLP: NLTK, TextBlob
+- Matplotlib/Seaborn for visualization
+- Git & GitHub for version control
 
+---
+
+---
+
+## 🔄 Workflow Summary
+
+- Merged updates from `task-2` into `main` via a **Pull Request**
+- Created new development branch `task-3` for ongoing sentiment-stock analysis
+- All commits use descriptive messages documenting tasks completed
+
+---
+
+## 📊 KPIs
+
+- **Proactivity**: Leveraged and shared references to implement sentiment scoring and correlation methods
+- **Sentiment Analysis**: Headlines successfully scored using basic NLP sentiment tools
+- **Correlation Strength**: Pearson correlation coefficient calculated to assess strength and direction of sentiment-price relationship
+
+---
+
+## 🔬 Methodology
+
+1. **Normalize Dates**
+   - Converted timestamps and ensured news and stock data aligned by trading days.
+
+2. **Sentiment Scoring**
+   - Applied TextBlob polarity scores to quantify the tone of each headline.
+   - Aggregated sentiment scores to daily averages.
+
+3. **Calculate Daily Returns**
+   - Used percent change in closing stock prices to represent daily movements.
+
+4. **Correlation**
+   - Performed Pearson correlation between aggregated sentiment and returns to analyze relationships.
 
 
 
